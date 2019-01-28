@@ -16,6 +16,8 @@ import lombok.Setter;
 @Setter
 public class CustomerUserDetails implements UserDetails{
 
+	
+	private static final long serialVersionUID = -5160428603321047843L;
 	private User user;
 	
 	@Override
